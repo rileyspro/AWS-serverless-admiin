@@ -1,0 +1,45 @@
+{{#if task.reference}}
+Dear {{user.firstName}},
+
+A document with name {{task.reference}} from {{task.from}} is awaiting your signature. Please review and sign the document by {{task.dueAtFormatted}}.
+
+Reference: {{task.reference}}
+
+{{#if task.noteForOther}}
+Notes: {{task.noteForOther}}
+{{/if}}
+
+Please click the link below to sign the document:
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+
+If you're having trouble with the button above, copy and paste the URL below into your web browser:
+{{task.url}}
+
+{{else}}
+
+Dear {{user.firstName}},
+
+A document from {{task.from}} is awaiting your signature. Please review and sign the document by {{task.dueAtFormatted}}.
+
+{{#if task.noteForOther}}
+Notes: {{task.noteForOther}}
+{{/if}}
+
+Please click the link below to sign the document:
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+
+If you're having trouble with the button above, copy and paste the URL below into your web browser:
+{{task.url}}
+
+{{/if}}
+

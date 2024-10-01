@@ -1,0 +1,12 @@
+Hello,
+
+We are pleased to inform you that {{inviterName}} have invited to join {{entityName}} as a {{role}}.
+
+You can accept or deny by clicking the link below:
+
+{{url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin

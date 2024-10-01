@@ -1,0 +1,18 @@
+Dear {{user.firstName}},
+
+A document with name {{task.reference}} from {{task.from}} is overdue for your signature. Please review and sign the document as soon as possible.
+
+Reference: {{task.reference}}
+
+Notes: {{task.noteForOther}}
+
+Please click the link below to sign the document:
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+
+If you're having trouble with the button above, copy and paste the URL below into your web browser:
+{{task.url}}

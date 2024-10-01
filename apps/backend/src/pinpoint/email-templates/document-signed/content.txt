@@ -1,0 +1,12 @@
+Dear {{user.firstName}},
+
+We are pleased to inform you that the document has been successfully signed by {{signer.name}} on {{signer.dateSignedFormatted}}.
+
+You can view the signed document by clicking the link below:
+
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
